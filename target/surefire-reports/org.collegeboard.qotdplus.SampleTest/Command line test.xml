@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="BANL12fd1cb7b.local" name="org.collegeboard.qotdplus.SampleTest" tests="3" failures="0" timestamp="29 Nov 2015 18:08:22 GMT" time="83.637" errors="0">
+  <testcase name="testNavigateToMenu" time="0.458" classname="org.collegeboard.qotdplus.SampleTest"/>
+  <testcase name="testNclickToSignIn" time="21.909" classname="org.collegeboard.qotdplus.SampleTest"/>
+  <testcase name="testNsignIN" time="13.092" classname="org.collegeboard.qotdplus.SampleTest"/>
+</testsuite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="org.collegeboard.qotdplus.SampleTest" duration-ms="83637" started-at="2015-11-29T23:36:58Z" finished-at="2015-11-29T23:38:22Z">
+    <groups>
+      <group name="ios">
+        <method signature="org.collegeboard.qotdplus.SampleTest.testNclickToSignIn()" name="testNclickToSignIn" class="org.collegeboard.qotdplus.SampleTest"/>
+      </group>
+      <group name="college-android">
+        <method signature="org.collegeboard.qotdplus.SampleTest.testNavigateToMenu()" name="testNavigateToMenu" class="org.collegeboard.qotdplus.SampleTest"/>
+        <method signature="org.collegeboard.qotdplus.SampleTest.testNclickToSignIn()" name="testNclickToSignIn" class="org.collegeboard.qotdplus.SampleTest"/>
+        <method signature="org.collegeboard.qotdplus.SampleTest.testNsignIN()" name="testNsignIN" class="org.collegeboard.qotdplus.SampleTest"/>
+      </group>
+      <group name="smoke">
+        <method signature="org.collegeboard.qotdplus.SampleTest.testNclickToSignIn()" name="testNclickToSignIn" class="org.collegeboard.qotdplus.SampleTest"/>
+      </group>
+    </groups>
+    <test name="Command line test" duration-ms="83637" started-at="2015-11-29T23:36:58Z" finished-at="2015-11-29T23:38:22Z">
+      <class name="org.collegeboard.qotdplus.SampleTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="48172" started-at="2015-11-29T23:36:58Z" finished-at="2015-11-29T23:37:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testNavigateToMenu()" name="testNavigateToMenu" duration-ms="458" started-at="2015-11-29T23:37:46Z" finished-at="2015-11-29T23:37:47Z">
+        </test-method>
+        <test-method status="PASS" signature="testNclickToSignIn()" name="testNclickToSignIn" duration-ms="21909" started-at="2015-11-29T23:37:47Z" finished-at="2015-11-29T23:38:09Z">
+        </test-method>
+        <test-method status="PASS" signature="testNsignIN()" name="testNsignIN" duration-ms="13092" started-at="2015-11-29T23:38:09Z" finished-at="2015-11-29T23:38:22Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

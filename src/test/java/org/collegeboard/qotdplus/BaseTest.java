@@ -62,9 +62,6 @@ public class BaseTest {
 				capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
 				capabilities.setCapability("platformVersion", "4.4");
 				capabilities.setCapability("app", app);
-				capabilities.setCapability("username", "BinduN");
-				capabilities.setCapability("access-key",
-						"9f77a50b-719b-40a4-9e71-fecdbd8ad4a0");
 				capabilities.setCapability("appPackage", props.getProperty("APP_PACKAGE"));
 				capabilities.setCapability("appWaitActivity",props.getProperty("APP_ACTIVITY"));
 				capabilities.setCapability("appActivity",props.getProperty("APP_ACTIVITY"));
@@ -80,9 +77,6 @@ public class BaseTest {
 				CollegeLogger.log(Level.INFO, "Loading IOS  Desired Capabilities");
 				DesiredCapabilities capabilities = new DesiredCapabilities();
 				capabilities.setCapability("platformName", "iOS");
-				capabilities.setCapability("username", "BinduN");
-				capabilities.setCapability("access-key",
-						"9f77a50b-719b-40a4-9e71-fecdbd8ad4a0");
 				capabilities.setCapability("platformVersion", "8.3");
 				capabilities.setCapability(CapabilityType.PLATFORM, "mac");
 				capabilities.setCapability("deviceName", "iPhone 6");
